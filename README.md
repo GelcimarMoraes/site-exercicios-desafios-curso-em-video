@@ -1,2 +1,3 @@
 # site-exercicios-desafios-curso-em-video
- Exercícios e Desafios do Curso em video
+ 
+ https://gelcimarmoraes.github.io/site-exercicios-desafios-curso-em-video/
