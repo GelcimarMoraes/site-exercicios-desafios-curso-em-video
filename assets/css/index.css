@@ -1,0 +1,150 @@
+*{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image:  url();
+    background-color: #181225;
+}
+
+header{
+    background-color: #3e2078;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{ 
+    color: #fff;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.534);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2em;
+    transition: .2s;
+}
+
+h1:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    -ms-transform: scale(1.3);
+}
+
+p{
+    color: #fff;
+}
+
+.cursoemvideo {
+    color: #54ff4e;
+    text-decoration: none;
+}
+
+.cursoemvideo:hover {
+    color: #c773ff;
+}
+
+.button{
+    padding: .4rem 1rem;
+    background-color: #03d367;
+    color: #fff;
+    text-decoration: none;
+    border-radius: .2rem;
+    transition: .2s;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: #9f0eff;
+    font-size: 14pt;
+    box-shadow: 0 .3rem .8rem rgba(0, 0, 0, 0.418);
+}
+
+h2{
+    font-size:1.5em;
+    text-align: center;
+}
+
+p{
+    font-size: 1em;
+    text-align: center;
+}
+
+.container{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+article{
+    color: #fff;
+    background-color: azure;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.212) 5px 5px 3px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.gradient-border {
+    --borderWidth: 3px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+section.videocurso{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+}
+
+div.video{
+    margin-bottom: 30px;
+    margin: 0px, -40px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    background-color: #3e2078;
+    padding: 1px;
+    margin: 0px;
+    color: #FFFFFF; 
+}
+
