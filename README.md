@@ -1,7 +1,10 @@
-## Site dos exercicios e desafios do curso em video 
+<h2 align="center">Site dos exercicios e desafios do curso em video</h2>
 
-### Professor <a href="https://github.com/gustavoguanabara" target="_blank" rel="noopener noreferrer">gustavoguanabara</a>
+<p align="center">Professor <a href="https://github.com/gustavoguanabara" target="_blank" rel="noopener noreferrer">gustavoguanabara</a></p>
  
+ <div align="center">
+    <img width="600" src="https://raw.githubusercontent.com/GelcimarMoraes/GelcimarMoraes/main/Portfolio/imgcurso.png"> 
+</div>
 
  <p align="center">
     <a href="https://gelcimarmoraes.github.io/site-exercicios-desafios-curso-em-video" target="_blank" rel="noopener noreferrer">
