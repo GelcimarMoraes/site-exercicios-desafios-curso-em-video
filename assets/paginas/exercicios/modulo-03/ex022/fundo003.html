@@ -1,51 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundo</title>
-    <style>
-        body {
-            background-color: rgb(255, 255, 255);
-            font: 13pt Arial;
-            color: black;
-        }
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundo</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.08em;
+    }
 
-        div { 
-            width: 90%;
-            height: 400px;
-            background-color: lightgray;
-            background-image: url('imagens/wallpaper003.jpg');
-            border: 1px solid black;
-        }
+    div.bloco {
+      height: 200px;
+      border: 1px solid black;
+      margin: 10px;
+      border-radius: 10px;
+      background-color: lightgray;
+      background-image: url(imagens/wallpaper003.jpg);
+    }
 
-        div#area001 {
-            background-position: left top;
-        }
+    div#q1 {
+      background-position: left top;
+    }
 
-        div#area002 {
-            background-position: right bottom;
-        }
+    div#q2 {
+      background-position: right bottom;
+    }
 
-        div#area003 {
-            background-position: center top;
-        }
+    div#q3 {
+      background-position: center top;
+    }
 
-        div#area004 {
-            background-position: center center;
-        }
-    </style>
+    div#q4 {
+      background-position: center center;
+    }
+
+    .botao {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.botao a {
+    background-color: #f44336;
+    color: white;
+    padding: .5rem 1.8rem;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    transition: .2s;
+    }
+
+.botao a:hover {
+    background-color: rgb(230, 2, 2);
+    color: white;
+}
+  </style>
 </head>
-<body>
-    <h1>Posição de um background</h1>
 
-    <h2>background-position: left top;</h2>
-    <div id="area001"></div>
-    <h2>background-position: right bottom;</h2>
-    <div id="area002"></div>
-    <h2>background-position: center top;</h2>
-    <div id="area003"></div>
-    <h2>background-position: center center;</h2>
-    <div id="area004"></div>
+<body>
+  <h1>Posição de um background</h1>
+  <p class="botao"><a href="./index.html">Voltar</a></p>
+  <h2>background-position: left top;</h2>
+  <div class="bloco" id="q1"></div>
+
+  <h2>background-position: right bottom;</h2>
+  <div class="bloco" id="q2"></div>
+
+  <h2>background-position: center top;</h2>
+  <div class="bloco" id="q3"></div>
+
+  <h2>background-position: center center;</h2>
+  <div class="bloco" id="q4"></div>
+
+
 </body>
+
 </html>
