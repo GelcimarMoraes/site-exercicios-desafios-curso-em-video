@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(209, 255, 237);
+    
+}
+
+h1#principal {
+    color: #fff;
+    text-align: center;
+    background-color: rgb(2, 131, 88);
+}
+
+h1{
+    color:rgb(13, 83, 48);
+}
+
+h2{
+    color: rgb(12, 128, 128);
+}
+
+.basico{
+    color: darkgoldenrod;
+}
+.intermediario{
+    color: crimson;
+}
+.avançado{
+    color:blue;
+}
+
+.center {
+    text-align: center;
+}
+
+.cursoemvideo {
+    color: #2c5dff;
+    text-decoration: none;
+}
+
+.cursoemvideo:hover {
+    color: #1100ff;
+}
+
+.voltar {
+    padding: .4rem 1rem;
+    background-color: rgb(218, 82, 58);
+    color: white;
+    text-decoration: none;
+    border-radius: .2rem;
+    transition: .2s;
+}
+
+.voltar:hover {
+    font-size: 14pt;
+    box-shadow: 0 .3rem .8rem rgba(0, 0, 0, 0.418);
+}
+
+.botao {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.botao .voltar {
+    margin-top: 2rem;
+    text-align: center;
+}
+

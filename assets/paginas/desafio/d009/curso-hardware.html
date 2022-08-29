@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus vídeos</title>
+    <style>
+        body {
+            background-color: rgb(39, 39, 39);
+            color: white;
+            font: 12pt arial;
+            text-align: center;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        iframe {
+            width: 80vw;
+            height: 28vh;
+            margin: auto;
+        }
+
+        @media (min-width: 600px) {
+            iframe {
+            width: 560px;
+            height: 316px;
+            }
+        }
+
+        h1{
+            font-family: sans-serif;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        div{
+            text-align: center;
+        }
+        .botao {
+            margin-top: 2rem;
+        }
+
+        .botao a {
+            
+            color: white;
+            padding: .5rem 1.8rem;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 8px;
+            transition: .2s;
+            }
+    </style>
+</head>
+<body>
+    
+    <h1>Curso de HTML</h1>
+    <iframe src="https://www.youtube.com/embed/iT6E92Kt38o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <p><a href="https://youtu.be/iT6E92Kt38o">Ver playlist completa</a></p>
+    
+    <p class="botao"><a href="./index.html"><img src="./imagens/voltar.png" alt="Voltar"></a></p>
+</body>
+</html>

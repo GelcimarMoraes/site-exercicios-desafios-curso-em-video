@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas - Parte 2</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    td {
+      border: 1px solid black;
+      padding: 15px 40px;
+      text-align: center;
+    }
+
+    .botao {
+    margin-top: 2rem;
+}
+
+.botao a {
+    background-color: #f44336;
+    color: white;
+    padding: .5rem 1.8rem;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    transition: .2s;
+    }
+
+.botao a:hover {
+    background-color: rgb(230, 2, 2);
+    color: white;
+}
+  </style>
+
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td colspan="4">A</td>
+      <td rowspan="4">B</td>
+    </tr>
+    <tr>
+      <td rowspan="4">C</td>
+      <td>D</td>
+      <td>E</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>H</td>
+      <td>I</td>
+    </tr>
+    <tr>
+      <td>J</td>
+      <td>L</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td colspan="4">N</td>
+    </tr>
+  </table>
+
+  <p class="botao"><a href="./parte01.html">Voltar</a></p>
+</body>
+</html>
